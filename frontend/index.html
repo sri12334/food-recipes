@@ -7,6 +7,23 @@
         <title>Recipes</title>
     </head>
     <body>
+        <header>
+          <main>
+            <form>
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title">
+                <label for="ingredients">ingredients</label>
+                <input type="text" id="ingredients" name="ingredients">
+                <label for="instructions">instructions</label>
+                <input type="text" id="instructions" name="instructions">
+                <label for="image">Image Url</label>
+                <input type="text" id="image" name="image">
+                <div class="error"></div>
+                <button type="submit" id="btn">Add Recipe</button>
+            </form>
+            <div class="recipes"></div>
+          </main>
+        </header>
         <script type="module" src="./src/init.js"></script>
-    </body>
+    </body>  
 </html>
